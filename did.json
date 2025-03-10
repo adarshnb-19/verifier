@@ -1,31 +1,31 @@
 {
-    "@context": ["https://www.w3.org/ns/did/v1"],
-    "id": "did:web:vivek-bodar.github.io:ak-issuer-verifier",
-    "verificationMethod": [
-      {
-        "id": "did:web:vivek-bodar.github.io:ak-issuer-verifier#key-1",
-        "type": "Ed25519VerificationKey2018",
-        "controller": "did:web:vivek-bodar.github.io:ak-issuer-verifier",
-        "publicKeyBase58": "BN2SChqw4D8gNv3EQLtJBgrMs9Pd3wTqGzPmQ93Pdf8L"
-      }
-    ],
-    "authentication": ["did:web:vivek-bodar.github.io:ak-issuer-verifier#key-1"],
-    "assertionMethod": ["did:web:vivek-bodar.github.io:ak-issuer-verifier#key-1"],
-    "service": [
-      {
-        "id": "did:web:vivek-bodar.github.io:ak-issuer-verifier#did-communication",
-        "type": "DIDCommMessaging",
-        "serviceEndpoint": "http://192.168.1.9:9001",
-        "recipientKeys": ["did:web:vivek-bodar.github.io:ak-issuer-verifier#key-1"],
-        "routingKeys": [],
-        "accept": ["didcomm/aip2;env=rfc19"],
-        "priority": 1
-      }
-    ],
-    "alsoKnownAs": [],
-    "proof": {
-      "type": "DataIntegrityProof",
-      "created": "2025-02-28T15:16:20.703Z",
-      "proofPurpose": "assertionMethod"
+  "@context": ["https://www.w3.org/ns/did/v1"],
+  "id": "did:web:adarshnb-19.github.io:verifier",
+  "verificationMethod": [
+    {
+      "id": "did:web:adarshnb-19.github.io:verifier#key-1",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:adarshnb-19.github.io:verifier",
+      "publicKeyBase58": "9okKHHU7qeEBg2yBfJrfLH8ykpuTi8vAQF4eWsqwuMzs"
     }
+  ],
+  "authentication": ["did:web:adarshnb-19.github.io:verifier#key-1"],
+  "assertionMethod": ["did:web:adarshnb-19.github.io:verifier#key-1"],
+  "service": [
+    {
+      "id": "did:web:adarshnb-19.github.io:verifier#did-communication",
+      "type": "DIDCommMessaging",
+      "serviceEndpoint": "http://192.168.0.106:9001",
+      "recipientKeys": ["did:web:adarshnb-19.github.io:verifier#key-1"],
+      "routingKeys": [],
+      "accept": ["didcomm/aip2;env=rfc19"],
+      "priority": 1
+    }
+  ],
+  "alsoKnownAs": [],
+  "proof": {
+    "type": "DataIntegrityProof",
+    "created": "2025-02-28T15:16:20.703Z",
+    "proofPurpose": "assertionMethod"
   }
+}
