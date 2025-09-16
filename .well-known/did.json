@@ -6,7 +6,7 @@
       "id": "did:web:adarshnb-19.github.io:verifier#key-1",
       "type": "Ed25519VerificationKey2018",
       "controller": "did:web:adarshnb-19.github.io:verifier",
-      "publicKeyBase58": "AXpoy1VUqf343eQbg8Et5t2r7djASfGTGr24fqU5Mh99"
+      "publicKeyBase58": "EpjioWRMrjXMXvvdaEZQfmn61dd2MQcJK2bj7R7sFMZ8"
     }
   ],
   "authentication": ["did:web:adarshnb-19.github.io:verifier#key-1"],
